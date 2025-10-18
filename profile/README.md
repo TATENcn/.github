@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://s1.imagehub.cc/images/2025/08/01/aacbcc1f6151e74eadb1d372e7caa5bf.png" alt="TATEN Logo" width="150" />
+  <img src="/profile/taten-logo-alpha-1000x240.png" alt="TATEN Logo" width="150" />
   
   <h1>TATEN</h1>
   <p><em><strong>Together, we Advance, we Try, we Explore, we Never stop.</strong></em></p>
