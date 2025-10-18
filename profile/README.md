@@ -1,7 +1,5 @@
 <div align="center">
-  <img src="/profile/taten-logo-alpha-1000x240.png" alt="TATEN Logo" width="150" />
-  
-  <h1>TATEN</h1>
+  <img src="/profile/taten-logo-alpha-1000x240.png" alt="TATEN Logo" width="300" />
   <p><em><strong>Together, we Advance, we Try, we Explore, we Never stop.</strong></em></p>
 </div>
 
