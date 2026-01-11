@@ -12,18 +12,6 @@
 
 ---
 
-## 我们拥有的技术栈
-
-- 前端开发：HTML / CSS / JavaScript  
-- 后端开发：PHP / MySQL  
-- 博客平台：Hexo / Typecho / Hugo / Halo  
-- 编程语言：Python / C++ / Java  
-- 操作系统：Windows / Linux / Mac OS  
-- 团队协作：Git / GitHub  
-- 其他技术：树莓派 / Flutter / QT  
-
----
-
 ## Join us！
 
 如果你：  
