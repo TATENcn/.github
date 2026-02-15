@@ -1,0 +1,65 @@
+name: "加入 TATEN 申请"
+description: "提交你的信息，加入我们一起建设项目"
+title: "[Join]: <你的名字> - <申请方向>"
+labels: ["join-us"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 欢迎加入 TATEN！
+        请认真填写以下信息，这将作为我们初步了解你的重要依据。
+  
+  - type: input
+    id: nickname
+    attributes:
+      label: 姓名/昵称
+      placeholder: "例如：张三 / SanZhang"
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: 联系方式
+      description: "QQ、微信或常用邮箱，方便我们后续联系你进行沟通。"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: 意向方向
+      multiple: true
+      options:
+        - 前端开发 (Vue/React)
+        - 后端开发 (Go/Node.js)
+        - UI/UX 设计
+        - 运营与文案
+        - 暂不确定 (先入群交流)
+    validations:
+      required: true
+
+  - type: textarea
+    id: skills
+    attributes:
+      label: 技术栈与项目经历
+      description: "简单描述你目前掌握的技术，或者提供你的 GitHub 个人主页链接。"
+      placeholder: "例如：熟悉 Vue3 和 TS，曾开发过一个个人博客..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么想加入我们？
+      description: "谈谈你对 TATEN 的看法或你希望在团队中获得什么。"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: 团队契约
+      options:
+        - label: "我已阅读并认同 TATEN 的团队规范，承诺对领取的任务有始有终。"
+          required: true
