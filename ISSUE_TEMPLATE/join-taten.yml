@@ -1,0 +1,82 @@
+name: TATEN 加入申请表
+description: 欢迎申请加入 TATEN，请根据指引填写以下内容。
+title: "[入队申请] <姓名/ID> - <申请方向>"
+labels: ["join-us", "internal-review"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你对 TATEN 的认可！请如实填写以下信息。
+
+  - type: input
+    id: name
+    attributes:
+      label: 你的姓名/昵称
+    validations:
+      required: true
+
+  - type: dropdown
+    id: gender
+    attributes:
+      label: 性别
+      options:
+        - 男
+        - 女
+        - 其他 / 不愿透露
+
+  - type: input
+    id: age
+    attributes:
+      label: 你的年龄
+    validations:
+      required: true
+
+  - type: input
+    id: contact_info
+    attributes:
+      label: 联系方式
+      description: 请填写微信号或 QQ 号以便我们联系。
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: roles
+    attributes:
+      label: 申请入队的岗位
+      options:
+        - label: 前端 (Vue/React)
+        - label: 后端 (Go/Node.js)
+        - label: UI/UX 设计
+        - label: 运营/文案
+        - label: 其他（请在下方说明）
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: 为什么想加入我们？
+      description: 谈谈你对 TATEN 的认识或加入的初衷。
+    validations:
+      required: true
+
+  - type: textarea
+    id: strengths
+    attributes:
+      label: 个人优势/项目经验
+      description: 简单描述你擅长的技术或曾参与过的项目。
+    validations:
+      required: true
+
+  - type: input
+    id: github_link
+    attributes:
+      label: GitHub / 个人作品链接
+      placeholder: "https://github.com/..."
+    
+  - type: checkboxes
+    id: confirm_faq
+    attributes:
+      label: 团队契约
+      options:
+        - label: 我已阅读“关于我们”及 FAQ，对任务承诺有始有终。
+          required: true
